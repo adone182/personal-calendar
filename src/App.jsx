@@ -1,9 +1,10 @@
-import "./App.css";
+import Calendar from "./components/Calendar/Calendar";
 
 const App = () => {
   return (
     <>
-      <h1>Personal Calendar</h1>
+      <h1 style={{ textAlign: "center" }}>Personal Calendar</h1>
+      <Calendar />
     </>
   );
 };

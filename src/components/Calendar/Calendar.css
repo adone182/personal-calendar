@@ -1,0 +1,43 @@
+.calendar-container {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 40px;
+  background-color: #f9f9f9;
+  color: #4a64e8;
+  box-sizing: border-box;
+}
+
+.day-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1px;
+}
+
+.day {
+  padding: 46px;
+  border: 1px solid #7f90e8;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.day:hover {
+  background-color: #bbc4f0;
+}
+
+.has-event {
+  background-color: #ff4081;
+  color: #fff;
+}
+
+.day-number {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.today {
+  background-color: #b0baee;
+  color: #fff;
+}
